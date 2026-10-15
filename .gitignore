@@ -1,0 +1,27 @@
+# Binaries and executables
+/bin/
+/dist/
+tmp/
+pikobot
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Environment variables
+.env
+!.env.example
+
+# IDE & Editor files
+.idea/
+.vscode/
+*.swp
+*~
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
