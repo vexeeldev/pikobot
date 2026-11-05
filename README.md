@@ -60,13 +60,13 @@ Isi kredensial di file [`.env`](file:///home/malakul-tech/project/pikobot/.env) 
 | Variabel | Deskripsi |
 |---|---|
 | `TELEGRAM_BOT_TOKEN` | Token Bot API dari BotFather |
-| `TELEGRAM_BOT_USERNAME` | Username bot (misal: `PikoAssistantBot`) |
+| `TELEGRAM_BOT_USERNAME` | Username bot  |
 | `MONGODB_URI` | Connection URI MongoDB Atlas (ganti `<db_password>` dengan password user database) |
 | `MONGODB_DATABASE` | Nama database MongoDB (default: `pikobot`) |
 | `APP_ENV` | `development` atau `production` |
 | `MIS_USERNAME` | Akun NetID / Email PENS untuk login otomatis ke MIS |
 | `MIS_PASSWORD` | Password akun MIS PENS |
-| `MIS_NRP` | NRP Mahasiswa (default: `3124521031`) |
+| `MIS_NRP` | NRP Mahasiswa  |
 | `MIS_KP_DAFTAR` | ID Pendaftaran KP MIS (default: `7733`) |
 | `MIS_MAHASISWA` | ID Mahasiswa MIS (default: `25533`) |
 | `MIS_JAM_MULAI` | Jam mulai KP default (default: `08.00`) |
@@ -170,11 +170,11 @@ Tampilkan detail teknis foto dan metadata kamera:
 1. Push repository ini ke GitHub / GitLab / Bitbucket.
 2. Buka dashboard [Vercel](https://vercel.com/) -> **Add New Project** -> Import repository ini.
 3. Tambahkan **Environment Variable** di pengaturan project Vercel:
-   - `TELEGRAM_BOT_TOKEN`: `8915982113:AAEnJznyAnaobcBrJSJ3SXiYZ_RxpguOnZA`
-   - `TELEGRAM_BOT_USERNAME`: `PikoAssistantBot`
-   - `MONGODB_URI`: `mongodb+srv://malakultech_db_user:<password>@pikobot.sqixdyf.mongodb.net/?retryWrites=true&w=majority`
-   - `MONGODB_DATABASE`: `pikobot`
-   - `APP_ENV`: `production`
+   - `TELEGRAM_BOT_TOKEN`: 
+   - `TELEGRAM_BOT_USERNAME`: 
+   - `MONGODB_URI`: 
+   - `MONGODB_DATABASE`:
+   - `APP_ENV`:
 4. Klik **Deploy**.
 
 ### Langkah B: Daftarkan Webhook ke Telegram
